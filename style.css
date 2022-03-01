@@ -15,11 +15,13 @@ src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
 #nav {width: calc(100% - 335px); height: 156px; right: 15%;
       position: absolute; display: inline-block;}
 ul {list-style-type: none; margin: 0; padding: 0;}
-#nav li {float: right; margin-left: 20px;}
+#nav li {float: right; margin-left: 20px; height: 50px;}
 #nav li a {font-family: Red Hat Display; display: block; width: auto; 
            font-style: normal; font-weight: 600; font-size: 18px; 
            text-align: center; letter-spacing: 0.2px; color: #FFF;
-           padding: 5px; line-height: 180px;}
+           padding: 5px; height: 25px; position: relative; top: 70px;}
+#nav ul li:first-child a {background-color: #FFF; color: #0D5C63; border-radius: 37px;
+                          width: 110px;}
          
 h1 {color: #FFF;}
 a {text-decoration: none;}
