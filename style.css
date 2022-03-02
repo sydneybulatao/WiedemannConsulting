@@ -3,37 +3,65 @@ src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
 
 #header {position: fixed; top: 0px; display: block; left: -5px;
          width: 110%; background-color: #47A2AE; height: 156px;
-         box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.1);}
+         box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.1); z-index: 1;}
 #brand {position: absolute; width: 330px; height: 58px; left: 10px;
         top: calc(50% - 58px/2 + 13px);}
 #name {position: absolute; width: 315px; height: 34px; left: 20px; top: 12px;
-       font-family: "Red Hat Display"; font-style: normal; font-weight: bold;
+       font-family: Red Hat Display; font-style: normal; font-weight: bold;
        font-size: 15px; line-height: 0%; letter-spacing: 0.1px; 
         display: inline-block;}
 #name a {width: 315px; height: auto; display: inline-block; position: relative;
          z-index: 1;}
+         
 #nav {width: calc(100% - 335px); height: 156px; right: 15%;
       position: absolute; display: inline-block;}
 ul {list-style-type: none; margin: 0; padding: 0;}
 #nav li {float: right; margin-left: 20px; height: 50px;}
-#nav li a {font-family: "Red Hat Display"; display: block; width: auto; 
+#nav li a {font-family: Red Hat Display; display: block; width: auto; 
            font-style: normal; font-weight: 600; font-size: 18px; 
            text-align: center; letter-spacing: 0.2px; color: #FFF;
            padding: 5px; height: 25px; position: relative; top: 70px;}
 #nav ul li:first-child a {background-color: #FFF; color: #0D5C63; border-radius: 37px;
                           width: 110px;}
-         
-h1 {color: #FFF;}
-a {text-decoration: none;}
+                          
+#main {padding: 156px 0px; width: 100%; height: auto; position: relative;
+       padding-bottom: 900px;}
 
+.main_quote {height: 1280px; width: 100%;}
+.quote {padding: 80px 120px; position: absolute; width: 1094px; height: 578px;
+        font-family: "Red Hat Display"; font-size: 20px;}
+.quote a {width: auto; border-radius: 20px; background-color: #FF7B47;
+          color: #FFF; padding: 8px 8px;}
+.photo {position: absolute; left: 631px; right: 80px;
+        top: 0px; bottom: 0px; background: url(Karin.jpg);
+        height: 841px; width: 729px;}
+.row {height: 304px; width: 100%; padding-left: 0px 80px;
+      position: absolute; top: 750px;}
+.box {font-family: "Red Hat Display"; display: inline-block; margin-left: 30px;
+      box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.2); height: 304px;
+      color: #737373;}
+.box h2 {color: #252B42}
+.text {padding: 35px 40px; text-align: left;}
+.box:hover {background-color: #47A2AE; color: #FFF;}
+.box:hover h2 {color: #FFF;}
+                          
+#footer {position: absolute; bottom: -5px; background-color: #FFF; text-align: center;
+        width: 100%; color: #FF7B47; font-family: "Red Hat Display"; 
+        line-height: 100px; height: 121px; left: 0;}
+#footer_img {background-color: rgba(71, 162, 174, 0.2); width: 100%;
+             height: 780px; position: absolute; bottom: 121px; left: 0;
+             z-index: -1;}
+             
 .question_bar
 {   color: #FFF; position: absolute; font-size: 30px;
-    background: #47A2AE; float:none; top: 500px; display: block;
-    width: 84%; padding-top: 50px; padding-bottom: 50px; padding-left:15%;
+    background: #47A2AE; float:none; display: block;
+    width: 84%; padding-top: 50px; padding-bottom: 50px; padding-left: 15%;
     font-family: "Red Hat Display";}
-
 .question_bar a
 {   margin-right: 15%; display: inline-block; padding: 10px; padding-left: 25px;
     padding-right: 25px; border-radius: 12px; background-color: #FF7b47;
     font-weight: 600;  font-size: 12px; text-align: center; 
     letter-spacing: 0.2px; color: #FFF; float: right; border: .5px solid white;}
+         
+h1 {color: #FFF;}
+a {text-decoration: none;}
