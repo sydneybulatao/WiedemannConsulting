@@ -7,7 +7,7 @@ src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
 #brand {position: absolute; width: 330px; height: 58px; left: 10px;
         top: calc(50% - 58px/2 + 13px);}
 #name {position: absolute; width: 315px; height: 34px; left: 20px; top: 12px;
-       font-family: Red Hat Display; font-style: normal; font-weight: bold;
+       font-family: "Red Hat Display"; font-style: normal; font-weight: bold;
        font-size: 15px; line-height: 0%; letter-spacing: 0.1px; 
         display: inline-block;}
 #name a {width: 315px; height: auto; display: inline-block; position: relative;
@@ -16,7 +16,7 @@ src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
       position: absolute; display: inline-block;}
 ul {list-style-type: none; margin: 0; padding: 0;}
 #nav li {float: right; margin-left: 20px; height: 50px;}
-#nav li a {font-family: Red Hat Display; display: block; width: auto; 
+#nav li a {font-family: "Red Hat Display"; display: block; width: auto; 
            font-style: normal; font-weight: 600; font-size: 18px; 
            text-align: center; letter-spacing: 0.2px; color: #FFF;
            padding: 5px; height: 25px; position: relative; top: 70px;}
@@ -25,3 +25,15 @@ ul {list-style-type: none; margin: 0; padding: 0;}
          
 h1 {color: #FFF;}
 a {text-decoration: none;}
+
+.question_bar
+{   color: #FFF; position: absolute; font-size: 30px;
+    background: #47A2AE; float:none; top: 500px; display: block;
+    width: 84%; padding-top: 50px; padding-bottom: 50px; padding-left:15%;
+    font-family: "Red Hat Display";}
+
+.question_bar a
+{   margin-right: 15%; display: inline-block; padding: 10px; padding-left: 25px;
+    padding-right: 25px; border-radius: 12px; background-color: #FF7b47;
+    font-weight: 600;  font-size: 12px; text-align: center; 
+    letter-spacing: 0.2px; color: #FFF; float: right; border: .5px solid white;}
