@@ -7,7 +7,7 @@ src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
 #brand {position: absolute; width: 330px; height: 58px; left: 10px;
         top: calc(50% - 58px/2 + 13px);}
 #name {position: absolute; width: 315px; height: 34px; left: 20px; top: 12px;
-       font-family: Red Hat Display; font-style: normal; font-weight: bold;
+       font-family: "Red Hat Display"; font-style: normal; font-weight: bold;
        font-size: 15px; line-height: 0%; letter-spacing: 0.1px; 
         display: inline-block;}
 #name a {width: 315px; height: auto; display: inline-block; position: relative;
@@ -17,7 +17,7 @@ src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
       position: absolute; display: inline-block;}
 ul {list-style-type: none; margin: 0; padding: 0;}
 #nav li {float: right; margin-left: 20px; height: 50px;}
-#nav li a {font-family: Red Hat Display; display: block; width: auto; 
+#nav li a {font-family: "Red Hat Display"; display: block; width: auto; 
            font-style: normal; font-weight: 600; font-size: 18px; 
            text-align: center; letter-spacing: 0.2px; color: #FFF;
            padding: 5px; height: 25px; position: relative; top: 70px;}
@@ -27,14 +27,14 @@ ul {list-style-type: none; margin: 0; padding: 0;}
 #main {padding: 156px 0px; width: 100%; height: auto; position: relative;
        padding-bottom: 900px;}
 
-.main_quote {height: 1280px; width: 100%;}
+.main_quote { height: 1000px; width: 100%; position: relative;}
 .quote {padding: 80px 120px; position: absolute; width: 1094px; height: 578px;
         font-family: "Red Hat Display"; font-size: 20px;}
 .quote a {width: auto; border-radius: 20px; background-color: #FF7B47;
           color: #FFF; padding: 8px 8px;}
 .photo {position: absolute; left: 631px; right: 80px;
-        top: 0px; bottom: 0px; background: url("Karin.jpg"); background-size: cover;
-        height: 841px; width: 729px; opacity: .2;}
+        top: 1%; bottom: 0px; background: url("Karin.jpg"); background-size: cover;
+        width: 700px; height: 700px; opacity: .2;}
 .row {display: flex; flex-direction: row; margin-left: 6%; 
         position: absolute; margin-top: 45%; }
 .box {font-family: "Red Hat Display"; display: inline-block; margin-left: 30px;
@@ -51,34 +51,39 @@ ul {list-style-type: none; margin: 0; padding: 0;}
 #client
 { background-image: url("world.png");}
 #client, #about {position: relative; display: inline-block; font-family: "Red Hat Display";
-        padding-top: 8%; padding-bottom: 8%; letter-spacing: 0.2px;}
-.col1 {width: 20%;  float: left; padding-left: 6%; font-size: 25px; font-weight: bold;}
-.col2 {width: 65%; float: right; padding-right: 6%; line-height: 2.5; font-size: 18px;}
+                padding: 8% 0%; letter-spacing: 0.2px; width: 100%}
+.col1 {width: 25%;  float: left; padding-left: 6%; font-size: 25px; font-weight: bold;}
+.col2 {width: 69%; float: right; padding-right: 6%; line-height: 2.5; font-size: 18px;}
 #client a, #about a {padding: 2px 30px; border-radius: 23px; color: #47A2AE;
-  background-color: #FFF; font-weight: 600; text-align: center;
-  float: right; border: 2px solid #47A2AE; margin: 5%;}
+                      background-color: #FFF; font-weight: 600; text-align: center;
+                      float: right; border: 2px solid #47A2AE; margin: 5%;}
 #client a {margin-top:200px;}
     
-#bubbles {background-image: url("lines.png"); top: 75%; border: 1px solid red; 
-          text-align: left; padding: 5%; font-family: "Red Hat Display";
-          font-size: 20px; font-weight: bold;}
- /* .bubble{margin: 10%;} */
-#bubbles img {border-radius: 50%; margin-left: 0; margin-right: 0; display: flex; justify-content: center; flex-wrap: wrap;}             
-.question_bar
-{   color: #FFF; position: absolute; font-size: 30px;
-    background: #47A2AE; float:none; display: block;
-    width: 84%; padding-top: 50px; padding-bottom: 50px; padding-left: 15%;
-    font-family: "Red Hat Display";}
-.question_bar a, #bubbles a
-{   margin-right: 15%; display: inline-block; padding: 10px; padding-left: 25px;
-    padding-right: 25px; border-radius: 12px; background-color: #FF7b47;
-    font-weight: 600;  font-size: 12px; text-align: center; 
-    letter-spacing: 0.2px; color: #FFF; float: right; border: .5px solid white;}
-         
-#footer {position: absolute; bottom: -5px; background-color: #FFF; text-align: center;
-        width: 100%; color: #FF7B47; font-family: "Red Hat Display"; 
-        line-height: 100px; height: 121px; left: 0;}
+#bubbles{ background-image: url("lines.png"); font-family: "Red Hat Display";
+        font-size: 20px; font-weight: bold; padding: 10%; border: 1px solid red; } 
+.bubbleWrapper {width: 100%;} 
+.bubble {display: inline-flex; flex-direction: row; margin: 0% 7%; text-align: center; width: 200px;}
+.bubble img {border-radius: 50%;  margin-top: 40%; } 
+ #spacer  {position: relative; display: inline-block; padding: 4% 0%; letter-spacing: 0.2px; width: 100%;}
+ #spacer a {display: block; width: 20%;text-align: center; position: relative;
+            padding: 10px 25px; border-radius: 12px; background-color: #FF7b47;
+            margin-left: auto; margin-right: auto; font-weight: 600;  font-size: 12px; 
+            letter-spacing: 0.2px; color: #FFF;  }
+.question_bar {color: #FFF; position: relative; font-size: 30px;
+    background-color: #47A2AE; float:none; display: block;
+    width: 85%; padding-top: 50px; padding-bottom: 50px; padding-left: 15%;
+    font-family: "Red Hat Display"; }
+.question_bar a {margin-right: 15%; display: inline-block; padding: 10px 25px;
+                border-radius: 12px; background-color: #FF7b47;
+                font-weight: 600;  font-size: 12px; text-align: center;
+                letter-spacing: 0.2px; color: #FFF; float: right; border: .5px solid white;}
+
+#footer_home {position: absolute; bottom: -5px; background-color: #FFF; text-align: center;
+            width: 95%; color: #FFF; font-family: "Red Hat Display"; padding: 2.5%; padding-bottom: 1%;
+             height: 2.5%; left: 0; background-color: #47A2AE; margin-top: 0; line-height: 2.5;}
+.footer_box_l{display: inline-block; float: left; text-align: left;}
+.footer_box_r{display: inline-block; float: right; text-align: right;}
 #footer_img {background-color: rgba(71, 162, 174, 0.2); width: 100%;
-             height: 780px; position: absolute; bottom: 121px; left: 0; z-index: 0;}
+             height: 780px; position: absolute; bottom: 121px; left: 0; margin-bottom: 0;}
 h1 {color: #FFF;}
 a {text-decoration: none;}

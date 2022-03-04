@@ -5,11 +5,18 @@
     <title>Wiedemann Consulting</title>
     <!-- Internal Style Sheet -->
     <style type="text/css">
+    
     </style>
     <!-- End of Style Sheet -->
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" media="screen and (max-width:750px)" href="handheld.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        $("#lightning").hover(function()
+    {
+        $(this).attr("src", "breaks-hover.png");
+    })
+    </script>
 </head>
 <body>
     <!-- Header -->
@@ -90,7 +97,8 @@
                <!-- mindfulness box -->
                <a href="mindfulness.html">
                <div class="box" style="width: 328px;">
-                   <img src="lightning.png" alt="lightning icon">
+                   <img id = "lightning" src="lightning.png" alt="lightning icon">
+                   
                    <br />
                    <div class="text">
                        <h2>Conference Breaks</h2>
@@ -140,46 +148,65 @@
           </div>
            
        <!-- bubbles -->
-       <!-- <div >
-           Transformation starts with ...
-
-           <div>
-               <div class="bubble">
+       
+       <div id = "bubbles">
+           Transformation starts with ...<br>
+           
+           <div class = "bubbleWrapper">
+               <div class="bubble" id = "a">
                    <img src="now_sq.jpg" alt="">
-                   <br>
-                   Where have you <br> been?
+               </div>
+               <div class="bubble" >
+                   <img src="who_sq.jpg" alt="">
+               </div>
+               <div class="bubble" id = "c">
+                   <img src="future_sq2.png" alt="">
+               </div>
+           </div> 
+           <br>
+           <div class = "bubbleWrapper">
+               <div class="bubble">
+                   Where have you been? 
+              </div>
+               <div class="bubble">
+                   &nbsp;&nbsp;Who are you  now?
                </div>
                <div class="bubble">
-                   <img src="who_sq.jpg" alt="">
-                   <br>
-                   Who are you <br> now?
+                   Where might you want to go next? 
                </div>
-               <div class="bubble"> -->
-                   <!-- <img src="future_sq.jpg" alt="">
-                   <br>
-                   Where might you want <br> to go next? 
-               </div>
-           </div>  
-               <br>
-               <a href="contact.html">Book a Free Initial Consultation with Me</a>
-       </div> -->
+           </div>               
+       </div>
+       
+       <div id = "spacer">
+           <br>
+           <a href="contact.html">Book a Free Initial Consultation with Me</a>
+       </div>
+       
        <!-- question/contact -->
        <div class="question_bar">
             Got a question? Ask me now! 
            <a href="contact.html">GET IN TOUCH</a>
        </div>
-       <br />
        
        <!-- bottom image/quote -->
        <div id="footer_img">
            <img src="./images/footer.png", alt="rock tower"
            style="height: 100%; position: absolute;
-           right: 0; bottom: 0; z-index: -1;">
+           right: 0; bottom: 0;">
        </div>
        
        <!-- footer text -->
-       <div id="footer">
-           @Wiedemann Consulting 2022
+       <div id="footer_home">
+           <div class="footer_box_l">
+               Coaching, Workshop & Webinars, Conference Breaks: Stretch and Breathe
+               <br>
+               @Wiedemann Consulting 2022. All Rights Reserved. 
+           </div>
+           <div class="footer_box_r">
+               phone: 202-255-2346
+               <br>
+               email: info@wiedemanncousulting.com
+           </div>
        </div>
    </div>
     <!-- End of Main Section -->
