@@ -60,7 +60,7 @@ ul {list-style-type: none; margin: 0; padding: 0;}
 #client a {margin-top:200px;}
     
 #bubbles{ background-image: url("lines.png"); font-family: "Red Hat Display";
-        font-size: 20px; font-weight: bold; padding: 10%; border: 1px solid red; } 
+        font-size: 20px; font-weight: bold; padding: 10%; } 
 .bubbleWrapper {width: 100%;} 
 .bubble {display: inline-flex; flex-direction: row; margin: 0% 7%; text-align: center; width: 200px;}
 .bubble img {border-radius: 50%;  margin-top: 40%; } 
@@ -69,6 +69,7 @@ ul {list-style-type: none; margin: 0; padding: 0;}
             padding: 10px 25px; border-radius: 12px; background-color: #FF7b47;
             margin-left: auto; margin-right: auto; font-weight: 600;  font-size: 12px; 
             letter-spacing: 0.2px; color: #FFF;  }
+            
 .question_bar {color: #FFF; position: relative; font-size: 30px;
     background-color: #47A2AE; float:none; display: block;
     width: 85%; padding-top: 50px; padding-bottom: 50px; padding-left: 15%;
@@ -78,12 +79,14 @@ ul {list-style-type: none; margin: 0; padding: 0;}
                 font-weight: 600;  font-size: 12px; text-align: center;
                 letter-spacing: 0.2px; color: #FFF; float: right; border: .5px solid white;}
 
-#footer_home {position: absolute; bottom: -5px; background-color: #FFF; text-align: center;
+#footer_home, #footer{position: absolute; background-color: #FFF; text-align: center;
             width: 95%; color: #FFF; font-family: "Red Hat Display"; padding: 2.5%; padding-bottom: 1%;
-             height: 2.5%; left: 0; background-color: #47A2AE; margin-top: 0; line-height: 2.5;}
-.footer_box_l{display: inline-block; float: left; text-align: left;}
-.footer_box_r{display: inline-block; float: right; text-align: right;}
-#footer_img {background-color: rgba(71, 162, 174, 0.2); width: 100%;
-             height: 780px; position: absolute; bottom: 121px; left: 0; margin-bottom: 0;}
+             height: 2.5%; left: 0; background-color: #47A2AE; margin-top: 0; line-height: 2.5; bottom: 0;}
+#footer{bottom: 0; background-color: #5086D7; height: 100%; position: relative;
+        display: inline-block;}
+#footer_box_l{display: inline-block; float: left; text-align: left;}
+#footer_box_r{display: inline-block; float: right; text-align: right;}
+#footer_img {background-color: rgba(71, 162, 174, 0.2); width: 100%; 
+             height: 780px; position: relative; left: 0; }
 h1 {color: #FFF;}
 a {text-decoration: none;}
