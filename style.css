@@ -50,25 +50,41 @@ ul {list-style-type: none; margin: 0; padding: 0;}
 { background-color: #FAFAFA;}
 #client
 { background-image: url("world.png");}
-#client, #about {position: relative; display: inline-block; font-family: "Red Hat Display";
-                padding: 8% 0%; letter-spacing: 0.2px; width: 100%}
+#client, #about, #yoga, #lotus 
+        {position: relative; display: inline-block; font-family: "Red Hat Display";
+         padding: 8% 0%; letter-spacing: 0.2px; width: 100%, ; 
+}
 .col1 {width: 25%;  float: left; padding-left: 6%; font-size: 25px; font-weight: bold;}
 .col2 {width: 69%; float: right; padding-right: 6%; line-height: 2.5; font-size: 18px;}
 #client a, #about a {padding: 2px 30px; border-radius: 23px; color: #47A2AE;
                       background-color: #FFF; font-weight: 600; text-align: center;
                       float: right; border: 2px solid #47A2AE; margin: 5%;}
 #client a {margin-top:200px;}
-    
+
+#lotus {background-color: #FAFAFA;}
+#yoga .col2, #lotus .col2{width: 50%;}
+#lotus .col1{float: right;  padding-right: 6%; padding-left: 0;}
+#lotus .col2{float: left;  padding-left: 6%;  padding-right:0;}
+.subtitle_text{font-weight: 20em; font-size: 25px; 
+}
+.section_text{font-weight: bold; margin-top: 2%; 
+}
+.shape {padding-right: 2%;}
+
 #bubbles{ background-image: url("lines.png"); font-family: "Red Hat Display";
         font-size: 20px; font-weight: bold; padding: 10%; } 
 .bubbleWrapper {width: 100%;} 
 .bubble {display: inline-flex; flex-direction: row; margin: 0% 7%; text-align: center; width: 200px;}
 .bubble img {border-radius: 50%;  margin-top: 40%; } 
- #spacer  {position: relative; display: inline-block; padding: 4% 0%; letter-spacing: 0.2px; width: 100%;}
- #spacer a {display: block; width: 20%;text-align: center; position: relative;
+ #spacer  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
+           width: 86%; line-height: 2.5; font-family: "Red Hat Display"; ; 
+}
+ #spacer a {display: block; width: 20%; text-align: center; position: relative;
             padding: 10px 25px; border-radius: 12px; background-color: #FF7b47;
             margin-left: auto; margin-right: auto; font-weight: 600;  font-size: 12px; 
             letter-spacing: 0.2px; color: #FFF;  }
+
+hr{border-top: 2px solid #FF7b47; margin-bottom: 5%;}
             
 .question_bar {color: #FFF; position: relative; font-size: 30px;
     background-color: #47A2AE; float:none; display: block;
