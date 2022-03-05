@@ -11,6 +11,42 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" media="screen and (max-width:750px)" href="handheld.css"/>
+    
+    <script language="javascript">
+    suitcaseIcons = ["suitcase.png", "suitcase_hover.png"];
+    smileIcons = ["smile.png", "smile_hover.png"];
+    lightningIcons = ["lightning.png", "lightning_hover.png"];
+    
+    $(document).ready(function ()
+        {
+            $("#coaching").mouseover(function() {
+                image_file = $(this).find("img").attr("src");
+                $(this).find("img").attr("src", suitcaseIcons[1]);
+                $(this).mouseleave(function() 
+                {
+                        $(this).find("img").attr("src",suitcaseIcons[0]);
+                });
+            });
+            
+            $("#webinars").mouseover(function() {
+                image_file = $(this).find("img").attr("src");
+                $(this).find("img").attr("src", smileIcons[1]);
+                $(this).mouseleave(function() 
+                {
+                        $(this).find("img").attr("src",smileIcons[0]);
+                });
+            });
+            
+            $("#mindfulness").mouseover(function() {
+                image_file = $(this).find("img").attr("src");
+                $(this).find("img").attr("src", lightningIcons[1]);
+                $(this).mouseleave(function() 
+                {
+                        $(this).find("img").attr("src",lightningIcons[0]);
+                });
+            });
+        });
+    </script>
     </head>
 <body>
     <!-- Header -->
