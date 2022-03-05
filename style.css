@@ -15,7 +15,7 @@ src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
          
 #nav {width: calc(100% - 335px); height: 156px; right: 15%;
       position: absolute; display: inline-block;}
-ul {list-style-type: none; margin: 0; padding: 0;}
+#nav ul {list-style-type: none; margin: 0; padding: 0;}
 #nav li {float: right; margin-left: 20px; height: 50px;}
 #nav li a {font-family: "Red Hat Display"; display: block; width: auto; 
            font-style: normal; font-weight: 600; font-size: 18px; 
@@ -50,9 +50,9 @@ ul {list-style-type: none; margin: 0; padding: 0;}
 { background-color: #FAFAFA;}
 #client
 { background-image: url("world.png");}
-#client, #about, #yoga, #lotus 
+#client, #about, #yoga, #lotus, #webinars_workshops, #topics
         {position: relative; display: inline-block; font-family: "Red Hat Display";
-         padding: 8% 0%; letter-spacing: 0.2px; width: 100%, ; 
+         padding: 8% 0%; letter-spacing: 0.2px; width: 100%; 
 }
 .col1 {width: 25%;  float: left; padding-left: 6%; font-size: 25px; font-weight: bold;}
 .col2 {width: 69%; float: right; padding-right: 6%; line-height: 2.5; font-size: 18px;}
@@ -61,10 +61,10 @@ ul {list-style-type: none; margin: 0; padding: 0;}
                       float: right; border: 2px solid #47A2AE; margin: 5%;}
 #client a {margin-top:200px;}
 
-#lotus {background-color: #FAFAFA;}
-#yoga .col2, #lotus .col2{width: 50%;}
-#lotus .col1{float: right;  padding-right: 6%; padding-left: 0;}
-#lotus .col2{float: left;  padding-left: 6%;  padding-right:0;}
+#lotus, #webinars_workshops{background-color: #FAFAFA;}
+#yoga .col2, #lotus .col2, #webinars_workshops .col2, #topics .col2 {width: 50%;}
+#lotus .col1, #webinars_workshops .col1{float: right;  padding-right: 6%; padding-left: 0;}
+#lotus .col2, #webinars_workshops .col2{float: left;  padding-left: 6%;  padding-right:0;}
 .subtitle_text{font-weight: 20em; font-size: 25px; 
 }
 .section_text{font-weight: bold; margin-top: 2%; 
