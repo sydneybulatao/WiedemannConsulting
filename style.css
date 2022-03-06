@@ -60,6 +60,8 @@ src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
                       background-color: #FFF; font-weight: 600; text-align: center;
                       float: right; border: 2px solid #47A2AE; margin: 5%;}
 #client a {margin-top:200px;}
+#clients_box{border: 2px solid #47A2AE; padding: 3%; margin: 5% 7%; width: 35%;}
+#clients_box li{line-height: 2;}
 
 #lotus, #webinars_workshops{background-color: #FAFAFA;}
 #yoga .col2, #lotus .col2, #webinars_workshops .col2, #topics .col2 {width: 50%;}
