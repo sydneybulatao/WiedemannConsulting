@@ -34,7 +34,7 @@ src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
           color: #FFF; padding: 8px 8px;}
 .photo {position: absolute; left: 631px; right: 80px;
         top: 1%; bottom: 0px; background: url("Karin.jpg"); background-size: cover;
-        width: 700px; height: 700px; opacity: .2;}
+        width: 700px; height: 700px; }
 .row {display: flex; flex-direction: row; margin-left: 6%; 
         position: absolute; margin-top: 45%; }
 .box {font-family: "Red Hat Display"; display: inline-block; margin-left: 30px;
