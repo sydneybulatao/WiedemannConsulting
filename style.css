@@ -24,8 +24,7 @@ src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
 #nav ul li:first-child a {background-color: #FFF; color: #0D5C63; border-radius: 37px;
                           width: 110px;}
                           
-#main {padding: 156px 0px; width: 100%; height: auto; position: relative;
-       padding-bottom: 900px;}
+#main {padding: 156px 0px; width: 100%; height: auto; position: relative;}
 
 .main_quote { height: 1000px; width: 100%; position: relative;}
 .quote {padding: 80px 120px; position: absolute; width: 1094px; height: 578px;
