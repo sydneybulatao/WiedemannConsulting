@@ -14,36 +14,32 @@
     <link rel="stylesheet" media="screen and (max-width:750px)" href="handheld.css"/>
     
     <script language="javascript">
-    suitcaseIcons = ["suitcase.png", "suitcase_hover.png"];
-    smileIcons = ["smile.png", "smile_hover.png"];
-    lightningIcons = ["lightning.png", "lightning_hover.png"];
-    
     $(document).ready(function ()
         {
             $("#coaching").mouseover(function() {
                 image_file = $(this).find("img").attr("src");
-                $(this).find("img").attr("src", suitcaseIcons[1]);
+                $(this).find("img").attr("src", "suitcase_hover.png");
                 $(this).mouseleave(function() 
                 {
-                        $(this).find("img").attr("src",suitcaseIcons[0]);
+                        $(this).find("img").attr("src","suitcase.png");
                 });
             });
             
             $("#webinars").mouseover(function() {
                 image_file = $(this).find("img").attr("src");
-                $(this).find("img").attr("src", smileIcons[1]);
+                $(this).find("img").attr("src", "smile_hover.png");
                 $(this).mouseleave(function() 
                 {
-                        $(this).find("img").attr("src",smileIcons[0]);
+                        $(this).find("img").attr("src","smile.png");
                 });
             });
             
             $("#mindfulness").mouseover(function() {
                 image_file = $(this).find("img").attr("src");
-                $(this).find("img").attr("src", lightningIcons[1]);
+                $(this).find("img").attr("src", "lightning_hover.png");
                 $(this).mouseleave(function() 
                 {
-                        $(this).find("img").attr("src",lightningIcons[0]);
+                        $(this).find("img").attr("src","lightning.png");
                 });
             });
         });
