@@ -49,9 +49,10 @@ body,html {font-family: "Red Hat Display"}
     
 #about 
 { background-color: #FAFAFA;}
+
 #client
 { background-image: url("world.png");}
-#client, #about, #yoga, #lotus, #webinars_workshops, #topics
+#client, #about, #yoga, #lotus, #webinars_workshops, #topics, #contact
         {position: relative; display: inline-block; font-family: "Red Hat Display";
          padding: 8% 0%; letter-spacing: 0.2px; width: 100%; 
 }
@@ -65,9 +66,9 @@ body,html {font-family: "Red Hat Display"}
 #clients_box li{line-height: 2;}
 
 #lotus, #webinars_workshops{background-color: #FAFAFA;}
-#yoga .col2, #lotus .col2, #webinars_workshops .col2, #topics .col2 {width: 50%;}
+#yoga .col2, #lotus .col2, #webinars_workshops .col2, #topics .col2, #contact .col2 {width: 50%;}
 #lotus .col1, #webinars_workshops .col1{float: right;  padding-right: 6%; padding-left: 0;}
-#lotus .col2, #webinars_workshops .col2{float: left;  padding-left: 6%;  padding-right:0;}
+#lotus .col2, #webinars_workshops .col2, #contact .col2{float: left;  padding-left: 6%;  padding-right:0;}
 .subtitle_text{font-weight: 20em; font-size: 25px; }
 .section_text{font-weight: bold; margin-top: 2%; }
 .shape {padding-right: 2%;}
@@ -86,7 +87,12 @@ body,html {font-family: "Red Hat Display"}
             letter-spacing: 0.2px; color: #FFF;  }
 
 hr{border-top: 2px solid #FF7b47; margin-bottom: 5%;}
-            
+
+form {background: #47A2AE; color: #FFF; padding: 4%; float: right; margin: 0 8%; width: 20%;
+  height: 30%; line-height: 2.5; font-size: 15px;}   
+input, textarea {border-width: 0; border-bottom: 2px solid white; background-color: transparent; width: 90%;} 
+form button {padding: 5% 15%; background-color: #FF7b47; color: #FFF; margin-top: 10%; border-color: transparent;}
+        
 .question_bar {color: #FFF; position: relative; font-size: 30px;
     background-color: #47A2AE; float:none; display: block;
     width: 85%; padding-top: 50px; padding-bottom: 50px; padding-left: 15%;

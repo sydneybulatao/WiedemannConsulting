@@ -5,6 +5,8 @@
     <title>Contact</title>
     <!-- Internal Style Sheet -->
     <style type="text/css">
+        #karin {border-radius: 50%; margin-top: 10%;}
+        #Karin {text-align: center;}
     </style>
     <!-- End of Style Sheet -->
     <link rel="stylesheet" href="style.css">
@@ -31,11 +33,35 @@
     </div>
     <!-- End of Header -->
     
-    <!-- Main Section -->
-    <div id=main>
+    <div style = 'margin-top: 10%; '>
+    <div class="spacer">
+        <div id="contact">
+            <div class="col2">
+                <div class="subtitle_text">
+                    <img class = "shape" src="shape.png" alt="an orange square bullet">
+                    LET'S GET STARTED!
+                </div>
+                <div >
+                    To learn more about the different ways I can work with you, 
+                    contact me today.
+                    <br>
+                    <div id = "Karin">
+                        <img src="Karin.jpg" id = "karin" alt="Karin's picture">
+                    </div>
+                </div>
+            </div>
+            <form action="index.html" method="post">
+                <label>Name*</label><br><input type="text" id = "form_name"><br>
+                <label>E-mail*</label><br><input type="text" id = "form_email"><br>
+                <label>Subject*</label><br><input type="text" id = "form_subject"><br>
+                <label>Message*</label><br><textarea name="name" rows="4" placeholder="Type your Message"></textarea>
+                <!-- <input type="text" id = "form_message" placeholder="Type your Message"> -->
+                <br><button type="button" name="button" id = "form_button">Send Message</button>
+            </form>
+        </div>
     </div>
-    <!-- End of Main Section -->
-    
+</div>
+
     <!-- bottom image/quote -->
     <div id="footer_img">
         <img src="./images/footer.png", alt="rock tower"
