@@ -19,7 +19,7 @@ body,html {font-family: "Red Hat Display"}
       position: absolute; display: inline-block;}
 #nav ul {list-style-type: none; margin: 0; padding: 0;}
 #nav li {float: right; margin-left: 20px; height: 50px;}
-#nav li a {font-family: "Red Hat Display"; display: block; width: auto; 
+#nav li a, .dropbtn {font-family: "Red Hat Display"; display: block; width: auto; 
            font-style: normal; font-weight: 600; font-size: 18px; 
            text-align: center; letter-spacing: 0.2px; color: #FFF;
            padding: 5px; height: 25px; position: relative; top: 70px;}
@@ -40,7 +40,7 @@ body,html {font-family: "Red Hat Display"}
         position: absolute; margin-top: 45%; }
 .box {font-family: "Red Hat Display"; display: inline-block; margin-left: 30px;
       box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.2); height: 304px;
-      color: #737373; background-color: #FFF;}
+      color: #737373; opacity: 1;}
 .box img{ float: left; margin-left: 10%; margin-top: 7%;}
 .box h2 {color: #252B42}
 .text {padding: 35px 40px; text-align: left;}
@@ -52,7 +52,7 @@ body,html {font-family: "Red Hat Display"}
 
 #client
 { background-image: url("world.png");}
-#client, #about, #yoga, #lotus, #webinars_workshops, #topics, #contact
+#client, #about, #yoga, #lotus, #webinars_workshops, #topics, #contact, #cafe, #about_page
         {position: relative; display: inline-block; font-family: "Red Hat Display";
          padding: 8% 0%; letter-spacing: 0.2px; width: 100%; 
 }
@@ -66,9 +66,9 @@ body,html {font-family: "Red Hat Display"}
 #clients_box li{line-height: 2;}
 
 #lotus, #webinars_workshops{background-color: #FAFAFA;}
-#yoga .col2, #lotus .col2, #webinars_workshops .col2, #topics .col2, #contact .col2 {width: 50%;}
-#lotus .col1, #webinars_workshops .col1{float: right;  padding-right: 6%; padding-left: 0;}
-#lotus .col2, #webinars_workshops .col2, #contact .col2{float: left;  padding-left: 6%;  padding-right:0;}
+#yoga .col2, #lotus .col2, #webinars_workshops .col2, #topics .col2, #contact .col2, #cafe .col2, #about_page .col2{width: 50%;}
+#lotus .col1, #webinars_workshops .col1, #cafe .col1, {float: right;  padding-right: 6%; padding-left: 0;}
+#lotus .col2, #webinars_workshops .col2, #contact .col2, #cafe .col2{float: left;  padding-left: 6%;  padding-right:0;}
 .subtitle_text{font-weight: 20em; font-size: 25px; }
 .section_text{font-weight: bold; margin-top: 2%; }
 .shape {padding-right: 2%;}
