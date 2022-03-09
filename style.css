@@ -14,6 +14,7 @@ body,html {font-family: "Red Hat Display"}
         display: inline-block;}
 #name a {width: 315px; height: auto; display: inline-block; position: relative;
          z-index: 1;}
+.logo {width: 330px; top: 82px; position: absolute;}
          
 #nav {width: calc(100% - 335px); height: 156px; right: 15%;
       position: absolute; display: inline-block;}
