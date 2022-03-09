@@ -26,17 +26,17 @@ body,html {font-family: "Red Hat Display"}
            padding: 5px; height: 25px; position: relative; top: 70px;}
 #nav ul li:first-child a {background-color: #FFF; color: #0D5C63; border-radius: 37px;
                           width: 110px;}
-                          
-#main {padding: 156px 0px; width: 100%; height: auto; position: relative;}
-.edison-quote {font-size: 45px; line-height: 61px;}
+body {max-width: 100%; margin: 0;}      
+#main {padding: 156px 0px; max-width: 100%; margin: 0; height: auto; position: relative;}
+.edison-quote {font-size: 40px; line-height: 61px;}
 .main_quote { height: 1000px; width: 100%; position: relative;}
 .quote {padding: 80px 120px; position: absolute; width: 1094px; height: 578px;
         font-family: "Red Hat Display"; font-size: 20px;}
 .quote a {width: auto; border-radius: 20px; background-color: #FF7B47;
-          color: #FFF; padding: 8px 8px;}
-.photo {position: absolute; left: 50%; right: 2%;
+          color: #FFF; padding: 14px 20px;}
+.photo {position: absolute; left: 40%; right: 4%;
         top: 1%; bottom: 0px; background: url("Karin.jpg"); background-size: cover;
-        max-height: 60%; }
+        max-height: 80%; }
 .row {display: flex; flex-direction: row; margin-left: 6%; 
         position: absolute; margin-top: 45%; }
 .box {font-family: "Red Hat Display"; display: inline-block; margin-left: 30px;
