@@ -28,12 +28,12 @@ body,html {font-family: "Red Hat Display"}
                           width: 110px;}
 body {max-width: 100%; margin: 0;}      
 #main {padding: 156px 0px; max-width: 100%; margin: 0; height: auto; position: relative;}
-.edison-quote {font-size: 40px; line-height: 61px;}
+.edison-quote {font-size: 35px; line-height: 45px;}
 .main_quote { height: 1000px; width: 100%; position: relative;}
 .quote {padding: 80px 120px; position: absolute; width: 1094px; height: 578px;
-        font-family: "Red Hat Display"; font-size: 20px;}
+        font-family: "Red Hat Display"; font-weight: 800; font-size: 20px;}
 .quote a {width: auto; border-radius: 20px; background-color: #FF7B47;
-          color: #FFF; padding: 14px 20px;}
+          color: #FFF; padding: 14px 20px; margin-top: 30px;}
 .photo {position: absolute; left: 40%; right: 4%;
         top: 1%; bottom: 0px; background: url("Karin.jpg"); background-size: cover;
         max-height: 80%; }
