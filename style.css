@@ -25,6 +25,11 @@ body,html {font-family: "Red Hat Display"}
            padding: 5px; height: 25px; position: relative; top: 70px;}
 #nav ul li:first-child a {background-color: #FFF; color: #0D5C63; border-radius: 37px;
                           width: 110px;}
+
+.dropdown {outline: none;}
+.dropdown-content {display: none; padding: 0; margin: 0; position: absolute; background:#47A2AE;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover{background-color: #FF7B47; font-size: auto; width: inherit; margin: 0;}
                           
 #main {padding: 156px 0px; width: 100%; height: auto; position: relative;}
 
