@@ -3,6 +3,22 @@
     
 @media screen and (max-width: 767px) {
          */
+         
+    .name{
+        display: block;
+        font-size: 20px;
+        float: left;
+    }  
+       
+    #nav li a {
+            font-size: 15px;
+            margin-left: 0; margin-right: 0;
+    }
+    
+    #nav ul li:first-child a {
+        width: auto;
+    }
+    
     .box {
         max-width: 80%;
         margin-left: 0px;
@@ -14,7 +30,7 @@
     }
 
     .edison-quote {
-        font-size: 30px;
+        font-size: 25px;
         line-height: 120%;
     }
     .quote {
@@ -44,6 +60,9 @@
         padding-left: 0%;
         display: inline-block;
 
+    }
+    .bubble {
+        margin: 5% 0;
     }
     
     .left-col {
