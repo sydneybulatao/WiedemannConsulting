@@ -55,7 +55,7 @@ body,html {font-family: "Red Hat Display"}
         {position: relative; display: inline-block; font-family: "Red Hat Display";
          padding: 8% 0%; letter-spacing: 0.2px; width: 100%; 
 }
-.col1 h2 {width: 25%;  float: left; padding-left: 6%; font-size: 25px; font-weight: bold;}
+.col1 h2, .col1 h1, .col1 {width: 25%;  float: left; padding-left: 6%; font-size: 25px; font-weight: bold;}
 .col2 {width: 69%; float: right; padding-right: 6%; line-height: 2.5; font-size: 18px;}
 #client a, #about a {padding: 2px 30px; border-radius: 23px; color: #47A2AE;
                       background-color: #FFF; font-weight: 600; text-align: center;
@@ -68,7 +68,7 @@ body,html {font-family: "Red Hat Display"}
 #yoga .col2, #lotus .col2, #webinars_workshops .col2, #topics .col2, #contact .col2, #cafe .col2, #about_page .col2{width: 50%;}
 #lotus .col1, #webinars_workshops .col1, #cafe .col1, {float: right;  padding-right: 6%; padding-left: 0;}
 #lotus .col2, #webinars_workshops .col2, #contact .col2, #cafe .col2{float: left;  padding-left: 6%;  padding-right:0;}
-.subtitle_text h1 {font-weight: 20em; font-size: 25px; display: inline-block;}
+.subtitle_text h1, .subtitle_text h2 {font-weight: 20em; font-size: 25px; display: inline-block;}
 .section_text{font-weight: bold; margin-top: 2%; }
 .shape {padding-right: 2%;}
 
