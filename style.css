@@ -82,8 +82,8 @@ body {max-width: 100%; margin: 0;}
  #spacer  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
            width: 86%; line-height: 2.5; font-family: "Red Hat Display"; ; 
 }
- #spacer a {display: block; max-width: 50%; text-align: center; position: relative;
-            padding: 24px 5px; border-radius: 12px; background-color: #FF7b47;
+#spacer a {display: block; max-width: 45%; text-align: center; position: relative;
+            padding: 20px 15px; border-radius: 12px; background-color: #FF7b47;
             line-height: 120%; border: 2px solid rgba(255, 230, 0, 0.6);
             margin-left: auto; margin-right: auto; font-weight: 600;  font-size: 18px; 
             letter-spacing: 0.2px; color: #FFF;  }
