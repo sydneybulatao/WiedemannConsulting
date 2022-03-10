@@ -78,7 +78,7 @@ body {max-width: 100%; margin: 0;}
 .bubbles img {border-radius: 50%; margin-bottom: 25%;}
 .bubble{ margin: 0 5%; display: inline-block; font-size: 20px; font-weight: bold; }
 
- #spacer  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
+#spacer  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
            width: 86%; line-height: 2.5; font-family: "Red Hat Display"; ; 
 }
 #spacer a {display: block; max-width: 45%; text-align: center; position: relative;
@@ -95,8 +95,8 @@ input, textarea {border-width: 0; border-bottom: 2px solid white; width: 90%;}
 form button {width: auto; float: left; margin-top: 10%;}
         
 .question_bar {color: #FFF; position: relative; font-size: 30px;
-    background-color: #47A2AE; float:none; display: block;
-    width: 85%; padding-top: 50px; padding-bottom: 60px; padding-left: 15%;
+    background-color: #47A2AE; float:none; display: block; font-weight: 600;
+    width: 85%; padding-top: 80px; padding-bottom: 100px; padding-left: 10%;
     font-family: "Red Hat Display"; }
 .question_bar a {margin-right: 15%; display: inline-block; padding: 15px 35px;
                 border-radius: 12px; background-color: #FF7b47;
