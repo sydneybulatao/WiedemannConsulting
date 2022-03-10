@@ -13,6 +13,10 @@
         float: none;
     }
 
+    #clients_box {
+        width: 80%;
+    }
+
     .edison-quote {
         font-size: 30px;
         line-height: 120%;
