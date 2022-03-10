@@ -33,9 +33,9 @@ body,html {font-family: "Red Hat Display"}
         font-family: "Red Hat Display"; font-size: 20px;}
 .quote a {width: auto; border-radius: 20px; background-color: #FF7B47;
           color: #FFF; padding: 8px 8px;}
-.photo {position: absolute; left: 631px; right: 80px;
-        top: 1%; bottom: 0px; background: url("Karin.jpg"); background-size: cover;
-        width: 700px; height: 700px; }
+.photo {position: absolute; left: 40%; right: 4%;
+        top: -8%; bottom: 0px; background: url("Karin.jpg"); background-size: cover;
+        max-height: 80%; }
 .row {display: flex; flex-direction: row; margin-left: 6%; 
         position: absolute; margin-top: 45%; }
 .box {font-family: "Red Hat Display"; display: inline-block; margin-left: 30px;
