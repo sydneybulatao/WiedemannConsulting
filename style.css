@@ -74,11 +74,10 @@ body {max-width: 100%; margin: 0;}
 .section_text{font-weight: bold; margin-top: 2%; }
 .shape {padding-right: 2%;}
 
-#bubbles{ background-image: url("lines.png"); font-family: "Red Hat Display";
-        font-size: 20px; font-weight: bold; padding: 10%; } 
-.bubbleWrapper {width: 100%;} 
-.bubble {display: inline-flex; flex-direction: row; margin: 0% 7%; text-align: center; width: 200px;}
-.bubble img {border-radius: 50%;  margin-top: 40%; } 
+.bubbleWrapper {padding: 10%; text-align: center;}
+.bubbles img {border-radius: 50%; margin-bottom: 25%;}
+.bubble{ margin: 0 5%; display: inline-block; font-size: 20px; font-weight: bold; }
+
  #spacer  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
            width: 86%; line-height: 2.5; font-family: "Red Hat Display"; ; 
 }
@@ -92,8 +91,8 @@ hr{border-top: 2px solid #FF7b47; margin-bottom: 5%;}
 
 form {background: #47A2AE; color: #FFF; padding: 4%; float: right; margin: 0 8%; width: 20%;
   height: 30%; line-height: 2.5; font-size: 15px;}   
-input, textarea {border-width: 0; border-bottom: 2px solid white; background-color: transparent; width: 90%;} 
-form button {padding: 5% 15%; background-color: #FF7b47; color: #FFF; margin-top: 10%; border-color: transparent;}
+input, textarea {border-width: 0; border-bottom: 2px solid white; width: 90%;} 
+form button {width: auto; float: left; margin-top: 10%;}
         
 .question_bar {color: #FFF; position: relative; font-size: 30px;
     background-color: #47A2AE; float:none; display: block;
