@@ -32,7 +32,7 @@ body,html {font-family: "Red Hat Display"}
 .quote {padding: 5% 5%; position: absolute; width: 50%; height: 578px;
         font-family: "Red Hat Display"; font-size: 20px;}
 .quote a {width: auto; border-radius: 20px; background-color: #FF7B47;
-          color: #FFF; padding: 8px 8px;}
+          color: #FFF; padding: 15px 20px;}
 .photo {position: absolute; left: 40%; right: 4%;
         top: -8%; bottom: 0px; background: url("Karin.jpg"); background-size: cover;
         max-height: 80%; }
@@ -56,7 +56,7 @@ body,html {font-family: "Red Hat Display"}
         {position: relative; display: inline-block; font-family: "Red Hat Display";
          padding: 8% 0%; letter-spacing: 0.2px; width: 100%; 
 }
-.col1 h2, .col1 h1, .col1 {width: 45%; float: left; padding-left: 5%; font-size: 25px; font-weight: bold;}
+.col1 h2, .col1 h1, .col1 {width: 40%; float: left; padding-left: 10%; font-size: 25px; font-weight: bold;}
 .col2 {width: 60%; float: right; padding-right: 6%; line-height: 2.5; font-size: 18px;}
 #client a, #about a {padding: 2px 30px; border-radius: 23px; color: #47A2AE;
                       background-color: #FFF; font-weight: 600; text-align: center;
