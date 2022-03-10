@@ -13,10 +13,6 @@
         float: none;
     }
 
-    #clients_box {
-        width: 80%;
-    }
-
     .edison-quote {
         font-size: 30px;
         line-height: 120%;
@@ -74,6 +70,10 @@
         font-size: 17px;
         margin-top: 20px;
         padding: 15px 30px;
+    }
+    
+    #clients_box {
+        width: 80%;
     }
     
     #spacer a {
