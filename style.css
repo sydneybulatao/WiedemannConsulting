@@ -26,7 +26,8 @@ body,html {font-family: "Red Hat Display"}
                           width: 110px;}
                           
 #main {padding: 156px 0px; width: 100%; height: auto; position: relative;}
-
+.edison-quote {font-size: 38px; line-height: 50px;}
+.edison-quote a {font-weight: 600;}
 .main_quote {height: 1000px; width: 100%; position: relative;}
 .quote {padding: 5% 5%; position: absolute; width: 50%; height: 578px;
         font-family: "Red Hat Display"; font-size: 20px;}
