@@ -56,8 +56,8 @@ body,html {font-family: "Red Hat Display"}
         {position: relative; display: inline-block; font-family: "Red Hat Display";
          padding: 8% 0%; letter-spacing: 0.2px; width: 100%; 
 }
-.col1 h2, .col1 h1, .col1 {width: 25%;  float: left; padding-left: 6%; font-size: 25px; font-weight: bold;}
-.col2 {width: 69%; float: right; padding-right: 6%; line-height: 2.5; font-size: 18px;}
+.col1 h2, .col1 h1, .col1 {width: 45%; float: left; padding-left: 5%; font-size: 25px; font-weight: bold;}
+.col2 {width: 60%; float: right; padding-right: 6%; line-height: 2.5; font-size: 18px;}
 #client a, #about a {padding: 2px 30px; border-radius: 23px; color: #47A2AE;
                       background-color: #FFF; font-weight: 600; text-align: center;
                       float: right; border: 2px solid #47A2AE; margin: 5%;}
