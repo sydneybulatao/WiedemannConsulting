@@ -65,9 +65,10 @@
         margin-top: 1%;
     }
     #about.col2{
-        width: 100%; 
+        width: 90%; 
         padding-top: 50px;
         padding-bottom: 50px;
+        padding: 40px;
         position: relative; 
         display: block; 
         margin-top: 100px;
