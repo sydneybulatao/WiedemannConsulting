@@ -49,27 +49,20 @@
         left: 0;
     }
     .col, .col1 {
-        padding: 40px 10px;
+        padding: 10px;
         display: inline-block;
         width: 100%; 
         float: center; 
-        padding-top: 10%;
-        padding-left: 5%
     }
-    .col1 h1 {
-        font-size: 21px;
-    }
-    .col1 h2 {
+    .col1 h1, h2{
         font-size: 21px;
     }
     .col2 {
-        font-size: 20px;
+        font-size: 17px;
         line-height: 150%;
-        width: 100%; 
-        padding: 0% 28%; 
+        width: 82%; 
+        padding-right: 40px;
         margin-top: 1%;
-        display: inline-block;
-        padding-bottom: 20px;
     }
     #about.col2{
         width: 100%; 
@@ -122,6 +115,10 @@
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
+    #Karin {
+        justify-content: center;
+        float: center;
+    }
     .map {
         display: hide;
     }
@@ -138,17 +135,15 @@
     #contact-text.col2 {
         width: 100%;
     }
-
     form {
         width: 70%;
         float: left;
     }
-    
     form button {
         font-weight: 800px; 
-        padding: 10px 25px; 
+        padding: 10px 30px; 
         border-radius: 20px;
-        font-size: 22px; 
+        font-size: 19px; 
     }
 }
         
