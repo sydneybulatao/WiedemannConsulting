@@ -73,10 +73,11 @@
         margin-top: 100px;
     }
     #about_page {
-        width: 100%;
+        width: 90%;
+        padding: 30px;
     }
     #spacer {
-        margin-top: 10%;
+        margin-top: 30%;
     }
     .col1-pic {
         width: 100%;
@@ -133,7 +134,7 @@
         margin-top: 100px;
     }
     #contact-text.col2 {
-        width: 100%;
+        width: 80%;
     }
     form {
         width: 70%;
