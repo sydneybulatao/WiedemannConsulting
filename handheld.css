@@ -83,7 +83,7 @@
         width: 100%;
     }
     #spacer {
-        margin-top: 15%;
+        margin-top: 10%;
     }
     .col1-pic {
         width: 100%;
@@ -122,9 +122,33 @@
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
+    .map {
+        display: hide;
+    }
     #footer_box_r {
         float: left;
         text-align: left;
+    }
+    .footer_img {
+        width: 100%;
+    }
+    #contact {
+        margin-top: 100px;
+    }
+    #contact-text.col2 {
+        width: 100%;
+    }
+
+    form {
+        width: 70%;
+        float: left;
+    }
+    
+    form button {
+        font-weight: 800px; 
+        padding: 10px 25px; 
+        border-radius: 20px;
+        font-size: 22px; 
     }
 }
         
