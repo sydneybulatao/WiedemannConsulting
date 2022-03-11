@@ -80,6 +80,9 @@ body,html {font-family: "Red Hat Display"}
 #spacer  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
            width: 100%; background-color: #FAFAFA; line-height: 2.5; font-family: "Red Hat Display"; 
 }
+#spacer-clients  {position: relative; display: inline-block; letter-spacing: 0.2px; padding-top: 2%;
+           width: 80%; padding-left: 7%; background-color: #FAFAFA; line-height: 2.5; font-family: "Red Hat Display"; 
+}
 #spacer-webinar  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
            width: 100%; background-color: #FAFAFA; line-height: 2.5; font-family: "Red Hat Display"; 
 }
@@ -116,4 +119,5 @@ form button {width: auto; background: #FF7B47; font-size: 16px; color: white;
 #footer_box_r{display: inline-block; float: right; text-align: right;}
 #footer_img {background-color: rgba(71, 162, 174, 0.2); width: 100%; 
              height: 780px; position: relative; left: 0; }
+h1 {}
 a {text-decoration: none;}
