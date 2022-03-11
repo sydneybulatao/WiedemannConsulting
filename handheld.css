@@ -72,7 +72,7 @@
         padding-bottom: 20px;
     }
     #spacer {
-        margin-top: 15%;
+        margin-top: 0%;
     }
     .col1-pic {
         max-width: 100%;
@@ -92,6 +92,10 @@
     }
     #clients_box {
         width: 80%;
+    }
+    .bubble {
+        padding-bottom: 20px;
+        justify-content: center;
     }
     #spacer a {
         font-size: 17px;
