@@ -78,7 +78,7 @@ body,html {font-family: "Red Hat Display"}
 .bubble{ margin: 0 5%; display: inline-block; font-size: 20px; font-weight: bold; }
 
 #spacer  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
-           width: 100%; background-color: #FAFAFA; line-height: 2.5; font-family: "Red Hat Display"; 
+           width: 100%; line-height: 2.5; font-family: "Red Hat Display"; 
 }
 #spacer-clients  {position: relative; display: inline-block; letter-spacing: 0.2px; padding-top: 2%;
            width: 80%; padding-left: 7%; background-color: #FAFAFA; line-height: 2.5; font-family: "Red Hat Display"; 
