@@ -62,21 +62,32 @@
     .col1 h2 {
         font-size: 21px;
     }
-    #about_page, .col2 {
+    .col2 {
         font-size: 20px;
         line-height: 150%;
-        max-width: 100%; 
+        width: 100%; 
         padding: 0% 28%; 
         margin-top: 1%;
         display: inline-block;
         padding-bottom: 20px;
     }
+    #about.col2{
+        width: 100%; 
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative; 
+        display: block; 
+    }
+    #about_page {
+        width: 100%;
+    }
     #spacer {
         margin-top: 0%;
     }
     .col1-pic {
-        max-width: 100%;
+        width: 100%;
         display: inline-block;
+        position: relative;
     }
     .question_bar {
         font-size: 20px;
