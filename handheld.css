@@ -27,7 +27,7 @@
         overflow: auto;
     }
     .edison-quote {
-        font-size: 20px;
+        font-size: 24px;
         line-height: 120%;
     }
     .quote {
@@ -57,16 +57,16 @@
         padding-left: 5%
     }
     .col1 h1 {
-        font-size: 18px;
+        font-size: 21px;
     }
     .col1 h2 {
-        font-size: 18px;
+        font-size: 21px;
     }
     #about_page, .col2 {
-        font-size: 17px;
+        font-size: 20px;
         line-height: 150%;
         max-width: 100%; 
-        padding: 0% 25%; 
+        padding: 0% 28%; 
         margin-top: 1%;
         display: inline-block;
         padding-bottom: 20px;
