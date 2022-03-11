@@ -79,6 +79,10 @@
     #spacer {
         margin-top: 30%;
     }
+    #spacer-webinar {
+        margin-top: 30%;
+        width: 80%;
+    }
     .col1-pic {
         width: 100%;
         display: inline-block;
@@ -135,6 +139,9 @@
     }
     #contact-text.col2 {
         width: 80%;
+    }
+    #topics, #webinars_workshops {
+        width: 100%;
     }
     form {
         width: 70%;
