@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <title>Contact</title>
     <!-- Internal Style Sheet -->
@@ -13,6 +14,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" media="screen and (max-width:750px)" href="handheld.css"/>
     <meta name="keywords" content="Consulting, Mindfulness, Workshops, Career, Leadership, Courses, Webinars, Stress">
+    
+    <script language="javascript">
+    $(document).ready(function ()
+        {
+        // code for hamburger menu:
+        const menu = document.querySelector(".menu");
+        const menuItems = document.querySelectorAll(".menuItem");
+        const hamburger = document.querySelector(".hamburger");
+        const closeIcon = document.querySelector(".closeIcon");
+        const menuIcon = document.querySelector(".menuIcon");
+        
+        function toggleMenu() {
+            if (menu.classList.contains("showMenu")) {
+                menu.classList.remove("showMenu");
+                closeIcon.style.display = "none";
+                menuIcon.style.display = "block";
+            }
+            else {
+                menu.classList.add("showMenu");
+                closeIcon.style.display = "block";
+                menuIcon.style.display = "none";
+            }
+        }
+        
+        menuItems.forEach(
+            function(menuItem) {
+                menuItem.addEventListener("click", toggleMenu);
+            }
+        );
+        
+        hamburger.addEventListener("click", toggleMenu);
+    });
+    </script>
 </head>
 <body>
     <!-- Header -->
@@ -26,7 +60,7 @@
             </div>
         </div>
         <div id="nav">
-            <ul>
+            <ul class="no-mobile">
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="clients.html">Clients</a></li>
                 <li><a href="services.html">Services</a></li>
@@ -34,6 +68,18 @@
                 <li><a href="index.html">Home</a></li>
             </ul>
         </div>
+        <!-- hamburger menu -->
+        <ul class="menu" class="mobile">
+            <li><a class="menuItem" href="index.html">Home</a></li>
+            <li><a class="menuItem" href="about.html">About</a></li>
+            <li><a class="menuItem" href="services.html">Services</a></li>
+            <li><a class="menuItem" href="clients.html">Clients</a></li>
+            <li><a class="menuItem" href="contact.html">Contact</a></li>
+        </ul>
+        <button class="hamburger">
+            <i class="menuIcon">Menu</i>
+            <i class="closeIcon">Close</i>
+       </button>
     </div>
     <!-- End of Header -->
     
