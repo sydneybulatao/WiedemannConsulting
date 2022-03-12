@@ -1,7 +1,7 @@
-@font-face{font-family: "Red Hat Display";
+/* @font-face{font-family: "Red Hat Display";
 src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
 
-body,html {font-family: "Red Hat Display"}
+body,html {font-family: "Red Hat Display"} */
 
 
 #header {position: fixed; top: 0px; display: block; left: -5px;
@@ -47,7 +47,7 @@ body,html {font-family: "Red Hat Display"}
 .box:hover h2 {color: #FFF;}
     
 #about 
-{ background-color: #FAFAFA; z-index: -10;}
+{ background-color: #FAFAFA;}
 
 #client
 { background-image: url("world.png");}
@@ -72,7 +72,7 @@ body,html {font-family: "Red Hat Display"}
 .section_text{font-weight: bold; margin-top: 2%; }
 .shape {padding-right: 2%;}
 #about.col2{padding-right: 7%;}
-.bubbleWrapper {padding: 10%; text-align: center;}
+.bubbleWrapper {padding: 10%; text-align: center; color: #000;}
 .bubbles img {border-radius: 50%; margin-bottom: 25%;}
 .bubble{ margin: 0 5%; display: inline-block; font-size: 20px; font-weight: bold; }
 
@@ -91,9 +91,9 @@ body,html {font-family: "Red Hat Display"}
             letter-spacing: 0.2px; color: #FFF;  }
 .col1-pic {width: 35%; position: absolute; float: left;}
 hr{border-top: 2px solid #FF7b47; margin-bottom: 5%;}
-
 form {background: #47A2AE; color: #FFF; padding: 4%; float: right; margin: 0 8%; width: 25%;
   height: 30%; line-height: 2.5; font-size: 15px;}   
+
 input, textarea {border-width: 0; border-radius: 5px; border-bottom: 2px solid white; width: 90%;} 
 #form_button {width: auto; background: #FF7B47; font-size: 16px; color: white;
             float: left; margin-top: 10%;
@@ -130,14 +130,4 @@ i {font-style: normal;}
 .menu li a {clear: both; text-align: center; display: block
            list-style-type: none; color: #FFF; font-size: 6vw;}
 .showMenu {transform: translateY(0);}
-@media screen and (max-width: 991px) {.no-mobile {display: none;}, .mobile {display: block;} .hamburger {display: block;}}
-
-#coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: none}
-#coaching_mobile img, #mindfulness_mobile img, #webinars_mobile img {padding-right: 15px;}
-#coaching_mobile a, #mindfulness_mobile a, #webinars_mobile a {color: #FFF; background-color: #FF7B47; border-radius: 10px; 
-padding: 5px 10px; position: absolute; right: 50px;}
-
-
-
-
-
+@media screen and (max-width: 900px) {.no-mobile {display: none;}, .mobile {display: block;} .hamburger {display: block;}}
