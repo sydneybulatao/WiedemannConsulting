@@ -129,8 +129,8 @@ a {text-decoration: none;}
 i {font-style: normal;}
 .closeIcon {display: none;}
 .menu {position: fixed; transform: translateY(-100%); transition: transform 0.2s; top: 0; left: 0; right: 0;
-       bottom: 0; z-index: 99; background-color: #47A2AE; color: white; list-style: none; padding-top: 4rem;}
-.menu li a {clear: both; text-align: center; font-family: "Red Hat Display"; display: block;
+       bottom: 0; z-index: 99; background-color: #47A2AE; color: white; list-style: none; padding-top: 4rem; display: none;}
+.menu li a {clear: both; text-align: center; font-family: "Red Hat Display"; 
            list-style-type: none; color: #FFF; font-size: 6vw;}
 .showMenu {transform: translateY(0);}
 @media screen and (max-width: 900px) {.no-mobile {display: none;}, .mobile {display: block;} .hamburger {display: block;}}

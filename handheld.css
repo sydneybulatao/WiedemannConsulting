@@ -2,6 +2,11 @@
 }
 @media screen and (max-width: 767px) {
     
+    .menu, .menu li a, .menuItems
+    {
+        display: block;
+    }
+    
     #header{
         height: 20%;
         width: 100%;
@@ -85,6 +90,7 @@
     {
         padding: 0;
         margin:0;
+        margin-bottom: 5%;
     }
     
     #spacer-webinar {
@@ -170,4 +176,4 @@
 }
         
         
- @media screen and (max-width: 479px) {
+ @media screen and (max-width: 479px) { }
