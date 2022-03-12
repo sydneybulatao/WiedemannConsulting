@@ -1,6 +1,15 @@
-@media screen and (max-width: 991px) { 
-    
+@media screen and (max-width: 1130px) { 
+    .box {display: none;}
+    #coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: block;}
+    .main_quote {height: 500px;}
 }
+
+@media screen and (max-width: 991px) { 
+    .box {display: none;}
+    #coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: block;}
+    .main_quote {height: 500px;}
+}
+
 @media screen and (max-width: 767px) {
     
     .menu, .menu li a, .menuItem
@@ -20,13 +29,7 @@
         max-width:200px;
     }
     .box {
-        max-width: 80%;
-        margin-left: 0px;
-        display: block;
-        -webkit-box-sizing:border-box;
-        -moz-box-sizing:border-box;
-        box-sizing:border-box;
-        float: none;
+        display: none;
     }
     .main_quote {
         max-height: 100%;
@@ -49,10 +52,11 @@
         flex-direction: column; 
     }
     .photo {
-        max-height: 40%; 
+        max-height: 100%; 
         width: 100%;
         position: absolute;
         left: 0;
+        z-index: -10;
     }
     .col, .col1 {
         padding: 10px;
@@ -104,16 +108,21 @@
         position: relative;
     }
     .question_bar {
-        font-size: 20px;
+        font-size: 3vw;
         padding-top: 70px; 
         padding-bottom: 70px; 
         position: relative;
     }    
     .question_bar a {
-        float: left;
-        font-size: 17px;
-        margin-top: 20px;
-        padding: 15px 30px;
+        font-size: 3vw;
+        margin-top: 0px;
+        padding: 2% 2%;
+        position: relative;
+        right: 15px;
+        display: inline-block;
+    }
+    .question_bar .vertical-center {
+        width: 80%;
     }
     #clients_box {
         width: 80%;
@@ -176,8 +185,18 @@
         border-radius: 20px;
         font-size: 19px; 
     }
+    #coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: block;}
 }
         
         
  @media screen and (max-width: 479px) { 
+     .box {display: none;}
+     #coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: block;}
+     .question_bar {
+         font-size: 18px;
+     }    
+     .question_bar a {
+         font-size: 18px;
+         margin-top: 20px;
+     }
  }
