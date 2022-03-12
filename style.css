@@ -131,3 +131,8 @@ i {font-style: normal;}
            list-style-type: none; color: #FFF; font-size: 6vw;}
 .showMenu {transform: translateY(0);}
 @media screen and (max-width: 900px) {.no-mobile {display: none;}, .mobile {display: block;} .hamburger {display: block;}}
+
+#coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: none}
+#coaching_mobile img, #mindfulness_mobile img, #webinars_mobile img {padding-right: 15px;}
+#coaching_mobile a, #mindfulness_mobile a, #webinars_mobile a {color: #FFF; background-color: #FF7B47; border-radius: 10px; 
+padding: 5px 10px; position: absolute; right: 50px;}
