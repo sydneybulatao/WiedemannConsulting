@@ -1,7 +1,7 @@
-@font-face{font-family: "Red Hat Display";
+/* @font-face{font-family: "Red Hat Display";
 src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
 
-body,html {font-family: "Red Hat Display"}
+body,html {font-family: "Red Hat Display"} */
 
 
 #header {position: fixed; top: 0px; display: block; left: -5px;
@@ -18,7 +18,7 @@ body,html {font-family: "Red Hat Display"}
       position: absolute; display: inline-block;}
 #nav ul {list-style-type: none; margin: 0; padding: 0;}
 #nav li {float: right; margin-left: 20px; height: 50px;}
-#nav li a{font-family: "Red Hat Display"; display: block; width: auto; 
+#nav li a{display: block; width: auto; 
            font-style: normal; font-weight: 600; font-size: 18px; 
            text-align: center; letter-spacing: 0.2px; color: #FFF;
            padding: 5px; height: 25px; position: relative; top: 70px;}
@@ -29,7 +29,7 @@ body,html {font-family: "Red Hat Display"}
 .edison-quote {font-size: 38px; line-height: 50px;}
 .main_quote {height: 1000px; width: 100%; position: relative;}
 .quote {padding: 5% 5%; position: absolute; width: 45%; height: 578px;
-        font-family: "Red Hat Display"; font-size: 20px;}
+         font-size: 20px;}
 .quote a {width: 100%; border-radius: 40px; background-color: #FF7B47;
           color: #FFF; padding: 15px 30px;}
 .photo {position: absolute; left: 40%; right: 4%;
@@ -38,9 +38,8 @@ body,html {font-family: "Red Hat Display"}
 .center{display: flex; flex-wrap: wrap; justify-content: space-around;}
 .row {display: flex; flex-direction: row; margin-left: 6%; 
         position: absolute; margin-top: 45%; }
-.box {font-family: "Red Hat Display"; display: inline-block; margin-left: 30px;
-      box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.2); height: 100%; background-color: #FFF;
-      color: #737373; opacity: 1;}
+.box {display: inline-block; margin-left: 30px; color: #737373; opacity: 1;
+      box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.2); height: 100%; background-color: #FFF;}
 .box img{ float: left; margin-left: 10%; margin-top: 7%;}
 .box h2 {color: #252B42}
 .text {padding: 35px 40px; text-align: left;}
@@ -78,14 +77,13 @@ body,html {font-family: "Red Hat Display"}
 .bubble{ margin: 0 5%; display: inline-block; font-size: 20px; font-weight: bold; }
 
 #spacer, #spacer_home {position: relative; display: inline-block; padding: 4%; letter-spacing: 0.2px; 
-           width: 96%; line-height: 2.5; font-family: "Red Hat Display"; padding-right: 0;
+           width: 96%; line-height: 2.5; padding-right: 0;
 }
 #spacer-clients  {position: relative; display: inline-block; letter-spacing: 0.2px; padding-top: 2%;
-           width: 80%; padding-left: 7%; background-color: #FAFAFA; line-height: 2.5; font-family: "Red Hat Display"; 
+           width: 80%; padding-left: 7%; background-color: #FAFAFA; line-height: 2.5; 
 }
 #spacer-webinar  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
-           width: 100%; background-color: #FAFAFA; line-height: 2.5; font-family: "Red Hat Display"; 
-}
+           width: 100%; background-color: #FAFAFA; line-height: 2.5;}
 #spacer a, #spacer_home a {display: block; max-width: 45%; text-align: center; position: relative;
             padding: 20px 15px; border-radius: 12px; background-color: #FF7b47;
             line-height: 120%; border: 2px solid rgba(255, 230, 0, 0.6);
@@ -97,21 +95,20 @@ hr{border-top: 2px solid #FF7b47; margin-bottom: 5%;}
 form {background: #47A2AE; color: #FFF; padding: 4%; float: right; margin: 0 8%; width: 25%;
   height: 30%; line-height: 2.5; font-size: 15px;}   
 input, textarea {border-width: 0; border-radius: 5px; border-bottom: 2px solid white; width: 90%;} 
-form button {width: auto; background: #FF7B47; font-size: 16px; color: white;
-            float: left; margin-top: 10%; font-family: "Red Hat Display";
+#form_button {width: auto; background: #FF7B47; font-size: 16px; color: white;
+            float: left; margin-top: 10%;
             font-weight: 800px; padding: 10px 35px; border-radius: 20px;}
 #contact-text.col2 {width: 45%;}
 .question_bar {color: #FFF; position: relative; font-size: 30px;
     background-color: #47A2AE; float:none; display: block; font-weight: 600;
-    max-width: 100%; padding-top: 80px; padding-bottom: 100px; padding-left: 10%;
-    font-family: "Red Hat Display"; }
+    max-width: 100%; padding-top: 80px; padding-bottom: 100px; padding-left: 10%;}
 .question_bar a {margin-right: 15%; display: inline-block; padding: 15px 35px;
                 border-radius: 12px; background-color: #FF7b47;
                 font-weight: 600;  font-size: 16px; text-align: center;
                 letter-spacing: 0.2px; color: #FFF; float: right; border: 2px solid rgba(255, 230, 0, 0.6);}
 
 #footer_home, #footer{position: absolute; background-color: #FFF; text-align: center;
-            width: 95%; color: #FFF; font-family: "Red Hat Display"; padding: 2.5%; padding-bottom: 1%;
+            width: 95%; color: #FFF;padding: 2.5%; padding-bottom: 1%;
              height: 2.5%; left: 0; background-color: #47A2AE; margin-top: 0; line-height: 2.5; bottom: 0;}
 #footer{bottom: 0; background-color: #5086D7; height: 100%; position: relative;
         display: inline-block;}
@@ -124,13 +121,13 @@ a {text-decoration: none;}
 
 .mobile {display: none;}
 .hamburger {display: none; position: fixed; z-index: 100; top: 1rem; right: 1rem; padding: 4px;
-           cursor: pointer; font-family: "Red Hat Display"; font-size: 18px; color: #0D5C63; background-color: #FFF;
+           cursor: pointer;font-size: 18px; color: #0D5C63; background-color: #FFF;
            border: none; border-radius: 20px; padding-right: 15px; padding-left: 15px;}
 i {font-style: normal;}
 .closeIcon {display: none;}
 .menu {position: fixed; transform: translateY(-100%); transition: transform 0.2s; top: 0; left: 0; right: 0;
        bottom: 0; z-index: 99; background-color: #47A2AE; color: white; list-style: none; padding-top: 4rem; display: none;}
-.menu li a {clear: both; text-align: center; font-family: "Red Hat Display"; 
+.menu li a {clear: both; text-align: center; display: block
            list-style-type: none; color: #FFF; font-size: 6vw;}
 .showMenu {transform: translateY(0);}
 @media screen and (max-width: 900px) {.no-mobile {display: none;}, .mobile {display: block;} .hamburger {display: block;}}

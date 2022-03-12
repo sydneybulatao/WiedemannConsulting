@@ -8,6 +8,7 @@
     <style type="text/css">
         #karin {border-radius: 50%; margin-top: 10%;}
         #Karin {text-align: center;}
+        #error {display: none; font-size: 15px; color: red;}
     </style>
     <!-- End of Style Sheet -->
     <link rel="stylesheet" href="style.css">
@@ -101,14 +102,32 @@
                 </div>
             </div>
                 <form action="mailto:karin@wiedemannconsulting.com" method="POST" enctype="multipart/form-data"
-                        name="EmailForm">
-                    <label>Name*</label><br><input type="text" id = "form_name"><br>
-                    <label>E-mail*</label><br><input type="text" id = "form_email"><br>
-                    <label>Subject*</label><br><input type="text" id = "form_subject"><br>
-                    <label>Message*</label><br><textarea name="name" rows="4" placeholder="Type your Message"></textarea>
-                    <!-- <input type="text" id = "form_message" placeholder="Type your Message"> -->
-                    <br><button type="submit" value="Submit">Send Message</button>
+                        name="EmailForm" onsubmit = "return validate()">
+                    <label>Name*</label><br><input type="text" required><br>
+                    <label>E-mail*</label><br><input type="text" id = "email" required><br>
+                    <!-- error msg hidden unless validation fails -->
+                    <div id="error">Please enter a valid email</div>               
+                    <label>Subject*</label><br><input type="text" required><br>
+                    <label>Message*</label><br><textarea name="name" rows="4" placeholder="Type your Message" required></textarea>
+                    <br><input type="submit" name="" value="Send Message" id = "form_button">
                 </form>
+                <!-- form validation -->
+                <script type="text/javascript">
+                function validate()
+                {
+                    email = document.getElementById("email").value; 
+                    if (email.indexOf('@') < 0)
+                    {
+                        document.getElementById("error").style.display = "block";
+                        return false;
+                    }
+                    else 
+                    {
+                        document.getElementById("error").style.display = "none";                        
+                        return true;
+                    }
+                }
+                </script>
         </div>
     </div>
 </div>
