@@ -1,7 +1,7 @@
-/* @font-face{font-family: "Red Hat Display";
+@font-face{font-family: "Red Hat Display";
 src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
 
-body,html {font-family: "Red Hat Display"} */
+body,html {font-family: "Red Hat Display"} 
 
 
 #header {position: fixed; top: 0px; display: block; left: -5px;
