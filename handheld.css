@@ -1,8 +1,9 @@
 @media screen and (max-width: 991px) { 
+    
 }
 @media screen and (max-width: 767px) {
     
-    .menu, .menu li a, .menuItems
+    .menu, .menu li a, .menuItem
     {
         display: block;
     }
@@ -121,7 +122,9 @@
         padding-bottom: 20px;
         justify-content: center;
     }
-    .bubbleWrapper
+    
+    /* bubbles for homepage only */
+    .num1
     {
         display: none;
     }
@@ -176,4 +179,5 @@
 }
         
         
- @media screen and (max-width: 479px) { }
+ @media screen and (max-width: 479px) { 
+ }
