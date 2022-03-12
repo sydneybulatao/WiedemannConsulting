@@ -28,7 +28,7 @@ body,html {font-family: "Red Hat Display"}
 #main {padding: 156px 0px; width: 100%; height: auto; position: relative;}
 .edison-quote {font-size: 38px; line-height: 50px;}
 .main_quote {height: 1000px; width: 100%; position: relative;}
-.quote {padding: 5% 5%; position: absolute; width: 50%; height: 578px;
+.quote {padding: 5% 5%; position: absolute; width: 45%; height: 578px;
         font-family: "Red Hat Display"; font-size: 20px;}
 .quote a {width: 100%; border-radius: 40px; background-color: #FF7B47;
           color: #FFF; padding: 15px 30px;}
@@ -77,8 +77,8 @@ body,html {font-family: "Red Hat Display"}
 .bubbles img {border-radius: 50%; margin-bottom: 25%;}
 .bubble{ margin: 0 5%; display: inline-block; font-size: 20px; font-weight: bold; }
 
-#spacer  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
-           width: 100%; line-height: 2.5; font-family: "Red Hat Display"; 
+#spacer, #spacer_home {position: relative; display: inline-block; padding: 4%; letter-spacing: 0.2px; 
+           width: 96%; line-height: 2.5; font-family: "Red Hat Display"; padding-right: 0;
 }
 #spacer-clients  {position: relative; display: inline-block; letter-spacing: 0.2px; padding-top: 2%;
            width: 80%; padding-left: 7%; background-color: #FAFAFA; line-height: 2.5; font-family: "Red Hat Display"; 
@@ -86,7 +86,7 @@ body,html {font-family: "Red Hat Display"}
 #spacer-webinar  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
            width: 100%; background-color: #FAFAFA; line-height: 2.5; font-family: "Red Hat Display"; 
 }
-#spacer a {display: block; max-width: 45%; text-align: center; position: relative;
+#spacer a, #spacer_home a {display: block; max-width: 45%; text-align: center; position: relative;
             padding: 20px 15px; border-radius: 12px; background-color: #FF7b47;
             line-height: 120%; border: 2px solid rgba(255, 230, 0, 0.6);
             margin-left: auto; margin-right: auto; font-weight: 600;  font-size: 18px; 
