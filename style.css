@@ -114,9 +114,7 @@ input, textarea {border-width: 0; border-radius: 5px; border-bottom: 2px solid w
         display: inline-block;}
 #footer_box_l{display: inline-block; float: left; text-align: left;}
 #footer_box_r{display: inline-block; float: right; text-align: right;}
-#footer_img {background-color: rgba(71, 162, 174, 0.2); max-width: 100%; overflow: hidden;
-             height: 400px; position: relative; left: 0; display: inline-block;}
-h1 {}
+#footer_img {background-color: rgba(71, 162, 174, 0.2); max-width: 100%; overflow: hidden; height: 400px; position: relative; left: 0; display: inline-block;}
 a {text-decoration: none;}
 
 .mobile {display: none;}
