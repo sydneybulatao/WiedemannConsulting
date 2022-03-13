@@ -1,7 +1,7 @@
-@font-face{font-family: "Red Hat Display";
+/* @font-face{font-family: "Red Hat Display";
 src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf");}
 
-body,html {font-family: "Red Hat Display"} 
+body,html {font-family: "Red Hat Display"} */
 
 
 #header {position: fixed; top: 0px; display: block; left: -5px;
@@ -47,7 +47,7 @@ body,html {font-family: "Red Hat Display"}
 .box:hover h2 {color: #FFF;}
     
 #about 
-{ background-color: #FAFAFA; z-index: -10;}
+{ background-color: #FAFAFA;}
 
 #client
 { background-image: url("world.png");}
@@ -55,7 +55,7 @@ body,html {font-family: "Red Hat Display"}
         {position: relative; display: inline-block; font-family: "Red Hat Display";
          padding: 8% 0%; letter-spacing: 0.2px; width: 100%; 
 }
-.col1 h2, .col1 h1, .col1 {width: 40%; float: left; padding-left: 7%; font-size: 25px; font-weight: bold;}
+.col1 h2, .col1 h1, .col1 {width: 38%; float: left; padding-left: 6%; font-size: 25px; font-weight: bold;}
 .col2 {width: 60%; float: right; padding-right: 6%; line-height: 2.5; font-size: 18px;}
 #client a, #about a {padding: 2px 30px; border-radius: 23px; color: #47A2AE;
                       background-color: #FFF; font-weight: 600; text-align: center;
@@ -65,7 +65,7 @@ body,html {font-family: "Red Hat Display"}
 #clients_box li{line-height: 2;}
 
 #lotus, #webinars_workshops{background-color: #FAFAFA;}
-#yoga .col2, #lotus .col2, #webinars_workshops .col2, #topics .col2, #contact .col2, #cafe .col2, #about_page .col2{width: 50%;}
+#yoga .col2, #lotus .col2, #webinars_workshops .col2, #topics .col2, #contact .col2, #cafe .col2, #about_page .col2{width: 48%; padding-right: 6%;}
 #lotus .col1, #webinars_workshops .col1, #cafe .col1, {float: right;  padding-right: 6%; padding-left: 0;}
 #lotus .col2, #webinars_workshops .col2, #contact .col2, #cafe .col2{float: left;  padding-left: 6%;  padding-right:0;}
 .subtitle_text h1, .subtitle_text h2 {font-weight: 20em; font-size: 25px; display: inline-block;}
@@ -131,8 +131,3 @@ i {font-style: normal;}
            list-style-type: none; color: #FFF; font-size: 6vw;}
 .showMenu {transform: translateY(0);}
 @media screen and (max-width: 900px) {.no-mobile {display: none;}, .mobile {display: block;} .hamburger {display: block;}}
-
-#coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: none}
-#coaching_mobile img, #mindfulness_mobile img, #webinars_mobile img {padding-right: 15px;}
-#coaching_mobile a, #mindfulness_mobile a, #webinars_mobile a {color: #FFF; background-color: #FF7B47; border-radius: 10px; 
-padding: 5px 10px; position: absolute; right: 50px;}
