@@ -109,8 +109,8 @@ input, textarea {border-width: 0; border-radius: 5px; border-bottom: 2px solid w
 
 #footer_home, #footer{position: absolute; background-color: #FFF; text-align: center;
             width: 95%; color: #FFF;padding: 2.5%; padding-bottom: 1%;
-             height: 2.5%; left: 0; background-color: #47A2AE; margin-top: 0; line-height: 2.5; bottom: 0;}
-#footer{bottom: 0; background-color: #5086D7; height: 100%; position: relative;
+             height: 2.5%; left: 0; background-color: #5086D7; margin-top: 0; line-height: 2.5; bottom: 0;}
+#footer_home, #footer{bottom: 0; background-color: #5086D7; height: 100%; position: relative;
         display: inline-block;}
 #footer_box_l{display: inline-block; float: left; text-align: left;}
 #footer_box_r{display: inline-block; float: right; text-align: right;}
