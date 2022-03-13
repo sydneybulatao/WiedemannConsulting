@@ -76,6 +76,7 @@
     }
     #about.col2{
         width: 90%; 
+        line-height: 2.5;
         padding-top: 50px;
         padding-bottom: 50px;
         padding: 40px;
@@ -139,14 +140,11 @@
         padding-bottom: 20px;
         justify-content: center;
     }
-    
     /* bubbles for homepage only */
     .num1
     {
         display: none;
     }
-    
-    
     #spacer a {
         font-size: 17px;
         max-width: 90%;
