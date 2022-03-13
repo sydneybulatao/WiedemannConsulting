@@ -198,6 +198,9 @@
         border-radius: 20px;
         font-size: 19px; 
     }
+    #footer_img{
+        display: none;
+    }
     #coaching_mobile, #mindfulness_mobile, #webinars_mobile, #return_to_top {display: block;}
 }
         
