@@ -95,7 +95,6 @@ form {background: #47A2AE; color: #FFF; padding: 4%; float: right; margin: 0 8%;
 height: 30%; line-height: 2.5; font-size: 15px;}   
 
 input, textarea {border-width: 0; border-radius: 5px; border-bottom: 2px solid white; width: 90%; height: 30px;} 
-textarea {height: 70px;}
 #form_button {width: auto; background: #FF7B47; font-size: 16px; color: white;
             float: left; margin-top: 10%;
             font-weight: 800px; padding: 10px 35px; border-radius: 20px;}
