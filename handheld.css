@@ -128,7 +128,7 @@
         position: relative;
         right: 15px;
         display: inline-block;
-        float: left;
+        float: right;
     }
     .question_bar .vertical-center {
         width: 80%;
