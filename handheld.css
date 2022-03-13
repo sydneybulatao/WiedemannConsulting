@@ -165,10 +165,17 @@
     .map {
         display: hide;
     }
-    #footer_box_r {
+    #footer_box_r, #footer_box_l {
         float: left;
         text-align: left;
-    }
+        display: block;
+        width: 100%;
+        position: relative;
+        font-size: 15px; }
+        
+    #footer_home
+    {height: 7%;}
+        
     .footer_img {
         height: 50%;
     }
@@ -191,7 +198,7 @@
         border-radius: 20px;
         font-size: 19px; 
     }
-    #coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: block;}
+    #coaching_mobile, #mindfulness_mobile, #webinars_mobile, #return_to_top {display: block;}
 }
         
         

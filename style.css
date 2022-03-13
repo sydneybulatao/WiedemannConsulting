@@ -25,7 +25,7 @@ body,html {font-family: "Red Hat Display"}
 #nav ul li:first-child a {background-color: #FFF; color: #0D5C63; border-radius: 37px;
                           width: 110px;}
                           
-#main {padding: 156px 0px; width: 100%; height: auto; position: relative;}
+#main {padding: 156px 0px; padding-bottom: 0; width: 100%; height: auto; position: relative;}
 .edison-quote {font-size: 38px; line-height: 50px;}
 .main_quote {height: 1000px; width: 100%; position: relative;}
 .quote {padding: 5% 5%; position: absolute; width: 45%; height: 578px;
@@ -134,5 +134,8 @@ i {font-style: normal;}
 
 #coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: none}
 #coaching_mobile img, #mindfulness_mobile img, #webinars_mobile img {padding-right: 15px;}
-#coaching_mobile a, #mindfulness_mobile a, #webinars_mobile a {color: #FFF; background-color: #FF7B47; border-radius: 10px; 
+#coaching_mobile a, #mindfulness_mobile a, #webinars_mobile a{color: #FFF; background-color: #FF7B47; border-radius: 10px; 
 padding: 5px 10px; position: absolute; right: 50px;}
+
+#return_to_top {display: none; border-bottom: 1px solid white; border-radius: 15px; background-color: #FF7B47; padding:.5% 1%; 
+    text-align: center; color: white; width: 10%; font-size: 18px;}
