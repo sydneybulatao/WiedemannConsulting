@@ -2,13 +2,14 @@
     .box {display: none;}
     #coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: block;}
     .main_quote {height: 500px; overflow: hidden;}
-    #spacer-clients {margin-top: 90px;}
+    #spacer-clients {margin-top: 30px;}
 }
 
 @media screen and (max-width: 991px) { 
     .box {display: none;}
     #coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: block;}
     .main_quote {height: 500px; overflow: hidden;}
+    #spacer-clients {margin-top: 50px;}
 }
 
 @media screen and (max-width: 767px) {
@@ -132,6 +133,9 @@
     }
     .question_bar .vertical-center {
         width: 80%;
+    }
+    #spacer-clients {
+        margin-top: 90px;
     }
     #clients_box {
         width: 80%;
