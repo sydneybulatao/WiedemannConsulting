@@ -123,7 +123,7 @@
         font-size: 3vw;
         margin-top: 0px;
         margin-left: 10px;
-        padding: 5% 5%;
+        padding: 3.5% 3.5%;
         position: relative;
         right: 15px;
         display: inline-block;
@@ -211,7 +211,7 @@
      .box {display: none;}
      #coaching_mobile, #mindfulness_mobile, #webinars_mobile {display: block;}
      .question_bar {
-         font-size: 18px;
+         font-size: 20px;
      }    
      .question_bar a {
          font-size: 18px;
