@@ -165,7 +165,7 @@
         float: center;
     }
     .map {
-        display: hide;
+        display: none;
     }
     #footer_box_r, #footer_box_l {
         float: left;
