@@ -102,6 +102,12 @@
         margin-top: 30%;
         width: 80%;
     }
+    
+    #cafe img
+    {
+        display: none;
+    }
+    
     .col1-pic {
         width: 100%;
         display: inline-block;
