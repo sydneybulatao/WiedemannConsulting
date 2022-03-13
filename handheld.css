@@ -122,10 +122,12 @@
     .question_bar a {
         font-size: 3vw;
         margin-top: 0px;
-        padding: 2% 2%;
+        margin-left: 10px;
+        padding: 5% 5%;
         position: relative;
         right: 15px;
         display: inline-block;
+        float: left;
     }
     .question_bar .vertical-center {
         width: 80%;
