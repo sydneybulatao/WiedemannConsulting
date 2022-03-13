@@ -47,7 +47,7 @@ body,html {font-family: "Red Hat Display"}
 .box:hover h2 {color: #FFF;}
     
 #about 
-{ background-color: #FAFAFA;}
+{background-color: #FFF;}
 
 #client
 { background-image: url("world.png");}
@@ -80,10 +80,10 @@ body,html {font-family: "Red Hat Display"}
            width: 96%; line-height: 2.5; padding-right: 0;
 }
 #spacer-clients  {position: relative; display: inline-block; letter-spacing: 0.2px; padding-top: 2%;
-           width: 80%; padding-left: 7%; background-color: #FAFAFA; line-height: 2.5; 
+           width: 80%; padding-left: 7%; background-color: #FFF; line-height: 2.5; 
 }
 #spacer-webinar  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
-           width: 100%; background-color: #FAFAFA; line-height: 2.5;}
+           width: 100%; background-color: #FFF; line-height: 2.5;}
 #spacer a, #spacer_home a {display: block; max-width: 45%; text-align: center; position: relative;
             padding: 20px 15px; border-radius: 12px; background-color: #FF7b47;
             line-height: 120%; border: 2px solid rgba(255, 230, 0, 0.6);
