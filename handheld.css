@@ -135,6 +135,11 @@
     .question_bar .vertical-center {
         width: 80%;
     }
+    .vertical-center a
+    {
+        margin-right = 0;
+    }
+    
     #spacer-clients {
         margin-top: 90px;
     }
