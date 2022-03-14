@@ -75,13 +75,6 @@
     .col1 h1, h2{
         font-size: 21px;
     }
-    .col2 {
-        font-size: 17px;
-        line-height: 150%;
-        width: 82%; 
-        padding-right: 40px;
-        margin-top: 1%;
-    }
     #lotus.col2 {
         display: block;
         font-size: 17px;
