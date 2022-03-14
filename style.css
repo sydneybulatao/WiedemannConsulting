@@ -47,7 +47,7 @@ body,html {font-family: "Red Hat Display"}
 .box:hover h2 {color: #FFF;}
     
 #about 
-{background-color: #FFF;}
+{background-color: #FFF; z-index: -1;}
 
 #client
 { background-image: url("world.png");}
