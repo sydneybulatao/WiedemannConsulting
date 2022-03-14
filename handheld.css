@@ -77,6 +77,22 @@
         padding-right: 40px;
         margin-top: 1%;
     }
+    #lotus.col2 {
+        font-size: 17px;
+        line-height: 150%;
+        width: 82%; 
+        padding-right: 40px;
+        margin-top: 1%;
+        display:block;
+    }
+     #cafe.col2 {
+        font-size: 17px;
+        line-height: 150%;
+        width: 82%; 
+        padding-right: 40px;
+        margin-top: 1%;
+         display:block;
+    }
     #about.col2{
         width: 90%; 
         line-height: 2.5;
