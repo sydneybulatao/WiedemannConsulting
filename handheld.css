@@ -64,7 +64,7 @@
     .col, .col1 {
         padding: 10px;
         display: inline-block;
-        width: 100%; 
+        width: calc(100% - 10px); 
         float: center; 
     }
     .col1 h1, h2{
