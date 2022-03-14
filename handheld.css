@@ -20,6 +20,11 @@
         display: block;
     }
     
+    .hamburger 
+    {
+        z-index: 100;
+    }
+    
     #header{
         height: 20%;
         width: 100%;
