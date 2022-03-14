@@ -75,20 +75,20 @@
     .col1 h1, h2{
         font-size: 21px;
     }
-    #lotus.col2 {
+    #lotus .col2 {
         display: block;
         font-size: 17px;
         line-height: 150%;
         width: 82%; 
-        padding-right: 5px;
+        padding-right: 4px;
         margin-top: 1%;
     }
-     #cafe.col2 {
+    #cafe .col2 {
         display: block;
         font-size: 17px;
         line-height: 150%;
         width: 82%; 
-        padding-right: 5px;
+        padding-right: 4px;
         margin-top: 1%;
     }
     #about.col2{
