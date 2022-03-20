@@ -32,7 +32,7 @@ body,html {font-family: "Red Hat Display"}
          font-size: 20px;}
 .quote a {width: 100%; border-radius: 40px; background-color: #FF7B47;
           color: #FFF; padding: 15px 30px;}
-.photo {position: absolute; left: 40%; right: 4%;
+.photo {position: absolute; left: 40%; right: 0;
         top: -8%; bottom: 0px; background: url("Karin.jpg"); background-size: cover;
         max-height: 80%; }
 .center{display: flex; flex-wrap: wrap; justify-content: space-around;}
@@ -53,7 +53,7 @@ body,html {font-family: "Red Hat Display"}
 { background-image: url("world.png");}
 #client, #about, #yoga, #lotus, #webinars_workshops, #topics, #contact, #cafe, #about_page
         {position: relative; display: inline-block; font-family: "Red Hat Display";
-         padding: 8% 0%; letter-spacing: 0.2px; width: 100%; 
+         padding: 2% 0%; letter-spacing: 0.2px; width: 100%; 
 }
 .col1 h2, .col1 h1, .col1 {width: 38%; float: left; padding-left: 6%; font-size: 25px; font-weight: bold;}
 .col2 {width: 60%; float: right; padding-right: 6%; line-height: 2.5; font-size: 18px;}
@@ -84,10 +84,10 @@ body,html {font-family: "Red Hat Display"}
 }
 #spacer-webinar  {position: relative; display: inline-block; padding: 4% 7%; letter-spacing: 0.2px; 
            width: 100%; background-color: #FFF; line-height: 2.5;}
-#spacer a, #spacer_home a {display: block; max-width: 45%; text-align: center; position: relative;
+#spacer a, #spacer_home a {display: block; max-width: 25%; text-align: center; position: relative;
             padding: 20px 15px; border-radius: 12px; background-color: #FF7b47;
             line-height: 120%; border: 2px solid rgba(255, 230, 0, 0.6);
-            margin-left: auto; margin-right: auto; font-weight: 600;  font-size: 18px; 
+            margin-left: auto; margin-right: auto; font-weight: 600;  font-size: 22px; 
             letter-spacing: 0.2px; color: #FFF;  }
 .col1-pic {width: 35%; position: absolute; float: left;}
 hr{border-top: 2px solid #FF7b47; margin-bottom: 5%;}
