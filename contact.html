@@ -8,7 +8,7 @@
     <style type="text/css">
         #karin {border-radius: 50%; margin-top: 10%;}
         #Karin {text-align: center;}
-        #error {display: none; font-size: 15px; color: red;}
+        #error, #error2 {display: none; font-size: 15px; color: red;}
     </style>
     <!-- End of Style Sheet -->
     <link rel="stylesheet" href="style.css">
@@ -109,27 +109,36 @@
                     <!-- error msg hidden unless validation fails -->
                     <div id="error">Please enter a valid email</div>               
                     <label>Subject*</label><br><input type="text" required><br>
-                    <label>Message*</label><br><textarea name="name" rows="4" placeholder="Type your Message" required></textarea>
-                    <br><label style = "line-height: 1em">To avoid spam,  enter the following word: 
-                        <div>mindfulness<div>
-                        </label><br><input type="text">
+                    <label>Message*</label><br><textarea name="name" rows="4" placeholder="Type your Message" required></textarea><br>
+                    <label style = "line-height: 0em">Show that you're not a robot by 
+                                entering the word "mindfulness" into the following box:</label><br><input type="text" id = "spam" required>
+                    <!-- error msg hidden unless validation fails -->
+                    <div id="error2">Please enter the word "mindfulness"</div>  
                     <br><input type="submit" name="" value="Send Message" id = "form_button">
                 </form>
                 <!-- form validation -->
                 <script type="text/javascript">
                 function validate()
                 {
+                    valid = true; 
                     email = document.getElementById("email").value; 
-                    if (email.indexOf('@') < 0)
-                    {
+                    if (email.indexOf('@') < 0) {
                         document.getElementById("error").style.display = "block";
-                        return false;
+                        valid = false;
                     }
                     else 
-                    {
                         document.getElementById("error").style.display = "none";                        
-                        return true;
+                    
+                    word = document.getElementById("spam").value;
+                    if (word != "mindfulness") {
+                        document.getElementById("error2").style.display = "block";
+                        valid = false;
                     }
+                    else {
+                        document.getElementById("error2").style.display = "none";
+                        valid = valid && true;
+                    }
+                    return valid;
                 }
                 </script>
         </div>
